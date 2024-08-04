@@ -34,7 +34,7 @@ docker compose up -d
 
 ### 3. Access the application
 
-Open a web browser and go to `http://localhost:8000` to access the application running in the Docker container.
+Open a web browser and go to `http://localhost:8000/api/bookstore/` to access the API running in the Docker container.
 
 ## Stopping and removing the container
 
