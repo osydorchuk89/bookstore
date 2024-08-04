@@ -9,7 +9,7 @@ class Author(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     date_of_birth = models.DateField(validators=[validate_date])
-    full_name = models.CharField(max_length=200, default="")
+    full_name = models.CharField(max_length=200, default="", editable=False)
 
     class Meta:
         verbose_name_plural = "Authors"
