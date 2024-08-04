@@ -24,7 +24,7 @@ cd bookstore
 Run the folloring command inside your terminal:
 
 ```
-docker-compose up
+docker compose up -d
 ```
 
 ### 3. Access the Application
