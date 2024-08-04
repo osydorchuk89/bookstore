@@ -12,26 +12,31 @@ You need to have [Docker ](https://docs.docker.com/get-docker/)installed on your
 
 ### 1. Clone the Repository
 
-First, clone the repository to your local machine:
+First, clone the repository to your local machine. Run the folloring command inside your terminal:
 
 ```
 git clone https://github.com/osydorchuk89/bookstore.git
+```
+
+Next, navigate to the newly created directory:
+
+```
 cd bookstore
 ```
 
-### 2. Build the Docker Image and run the Docker container
+### 2. Build the Docker image and run the Docker container
 
-Run the folloring command inside your terminal:
+To build the image and run the docker container, use the following command:
 
 ```
 docker compose up -d
 ```
 
-### 3. Access the Application
+### 3. Access the application
 
-Open a web browser and go to `http://localhost:8080` to access the application running in the Docker container.
+Open a web browser and go to `http://localhost:8000` to access the application running in the Docker container.
 
-## Stopping and Removing the Container
+## Stopping and removing the container
 
 To stop the running container and remove it, use the following command:
 
