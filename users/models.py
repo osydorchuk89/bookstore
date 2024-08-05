@@ -3,7 +3,7 @@ from django.contrib.auth.base_user import BaseUserManager
 from django.contrib.auth.models import AbstractUser
 
 
-# Create your models here.
+# overriding the base user class and replacing the username field with the email field
 class UserManager(BaseUserManager):
     """Define a model manager for User model with no username field."""
 

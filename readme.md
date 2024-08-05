@@ -26,7 +26,7 @@ cd bookstore
 
 ### 2. Build the Docker image and run the Docker container
 
-To build the image and run the docker container, use the following command:
+To build the image and run the Docker container, use the following command (make sure that Docker is running before executing this command):
 
 ```
 docker compose up -d

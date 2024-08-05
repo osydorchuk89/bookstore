@@ -1,6 +1,6 @@
+import pytest
 from django.contrib.auth.models import User
 from rest_framework import status
-import pytest
 from books.models import Book
 from model_bakery import baker
 from faker import Faker
@@ -9,6 +9,7 @@ pytestmark = pytest.mark.django_db
 fake = Faker()
 
 
+# tests for various books endpoints
 @pytest.mark.django_db
 class TestBooks:
 
